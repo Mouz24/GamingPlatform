@@ -1,0 +1,91 @@
+/* Add this CSS to your component or a separate CSS file */
+.tic-tac-toe-board {
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+  
+  .tic-tac-toe-cell {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .tic-tac-toe-cell:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .tic-tac-toe-cell.X {
+    color: #ff6347;
+  }
+  
+  .tic-tac-toe-cell.O {
+    color: #1e90ff;
+  }
+  
+  .player-names {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .player-name {
+    font-size: 30px;
+  }
+
+  .turn-indicator {
+    font-size: 20px;
+  }
+  
+  .green-line {
+    border-bottom: 2px solid green;
+  }
+  
+  /* Style for the tic-tac-toe board */
+  .tic-tac-toe-board {
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  .tic-tac-toe-cell {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+    font-family: cursive;
+    cursor: pointer;
+  }
+  
+  .X {
+    color: #ff6347; /* Red */
+  }
+  
+  .O {
+    color: #1e90ff; /* Blue */
+  }
+  
+  .leave-button {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .leave-button:hover {
+    background-color: #ff3b20;
+  }
+  
+  .end-game-message {
+    background-color: green;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+  }
